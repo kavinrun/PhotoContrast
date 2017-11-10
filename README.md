@@ -39,7 +39,7 @@ int main()
 	stringstream meanValueStream;//将int,double转换成为string型
 	string meanValueString;
 
-	meanValueStream << meanValue;
+	meanValueStream << meanValue;//将double型的meanValue转化成meanValueStream并赋值给meanValueString
 	meanValueStream >> meanValueString;
 
 	meanValueString = "Articulation(Sobel Method): " + meanValueString;
