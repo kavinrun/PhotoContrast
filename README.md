@@ -51,3 +51,7 @@ int main()
 	waitKey();
 }
 ```
+2.Laplacian
+```
+
+```
