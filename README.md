@@ -44,7 +44,7 @@ int main()
 
 	meanValueString = "Articulation(Sobel Method): " + meanValueString;
 
-	//	putText在图像上绘制文字,(待绘制图像,待绘制文字,位置,字体,尺寸,颜色,宽度,线型)
+	//putText在图像上绘制文字,(待绘制图像,待绘制文字,位置,字体,尺寸,颜色,宽度,线型)
 	putText(imageSource, meanValueString, Point(20, 50), CV_FONT_HERSHEY_COMPLEX, 0.8, Scalar(255, 255, 25), 2);
 
 	imshow("Articulation", imageSource);//输出图像结果
