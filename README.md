@@ -33,8 +33,6 @@ int main()
 	//图像的平均灰度
 	double meanValue = 0.0;
 	meanValue = mean(imageSobel)[0];//求出均值
-	
-	//double to string
 
 	stringstream meanValueStream;//将int,double转换成为string型
 	string meanValueString;
